@@ -1,3 +1,7 @@
+<svelte:head>
+    <title>活動実績 | 松江高専 情報科学研究部</title>
+</svelte:head>
+
 <main>
 
 ## 活動実績

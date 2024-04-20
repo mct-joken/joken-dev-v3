@@ -1,6 +1,11 @@
 <script lang="ts">
     import { CodeIcon, ComputerIcon, FilmIcon } from "xyz-icon-set";
+    import Icon from "$lib/Icon.svelte";
 </script>
+
+<svelte:head>
+    <title>活動内容 | 松江高専 情報科学研究部</title>
+</svelte:head>
 
 <main>
     <h2>活動内容</h2>
@@ -8,21 +13,21 @@
     <div class="jk_grid_3 my-2">
         <div class="jk_card text-center">
             <div class="w-fit h-fit mx-auto">
-                {@html (new CodeIcon({ theme: 'thin' })).toString().replace('width="24px"', 'width="5rem"').replace('height="24px"', 'width="5rem"')}
+                <Icon icon={new CodeIcon({theme: "thin"})} size="5rem" />
             </div>
             <h4>開発</h4>
             <p>Web, アプリケーション等</p>
         </div>
         <div class="jk_card text-center">
             <div class="w-fit h-fit mx-auto">
-                {@html (new ComputerIcon({ theme: 'thin' })).toString().replace('width="24px"', 'width="5rem"').replace('height="24px"', 'width="5rem"')}
+                <Icon icon={new ComputerIcon({theme: "thin"})} size="5rem" />
             </div>
             <h4>システム管理</h4>
             <p>部保有PC, サーバ等の管理</p>
         </div>
         <div class="jk_card text-center">
             <div class="w-fit h-fit mx-auto">
-                {@html (new FilmIcon({ theme: 'thin' })).toString().replace('width="24px"', 'width="5rem"').replace('height="24px"', 'width="5rem"')}
+                <Icon icon={new FilmIcon({theme: "thin"})} size="5rem" />
             </div>
             <h4>メディアコンテンツ</h4>
             <p>DTM, 映像, 3D等</p>
