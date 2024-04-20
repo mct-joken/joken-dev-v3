@@ -7,6 +7,11 @@
 
 :root, html, body, #wrapper {
     @apply w-full w-[100dvw] min-h-screen min-h-[100dvh] text-[13pt] p-0 m-0 leading-relaxed font-sans flex flex-col bg-white dark:bg-neutral-900 text-neutral-800 dark:text-white;
+    font-feature-settings: "calt",
+        "case",
+        "ss01",
+        "cv05",
+        "cv07";
 }
 
 * {
