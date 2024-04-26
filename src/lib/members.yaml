@@ -21,3 +21,14 @@
     - title: "GitHub"
       icon: "https://github.com/fluidicon.png"
       url: "https://githb.com/NSK-1010"
+
+- name: "かめのはま"
+  icon: "https://twitter.com/HAM_is_Turtle/photo"
+  roll: "部員"
+  links:
+    - title: "Twitter"
+      icon: "https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg"
+      url: "https://twitter.com/HAM_is_Turtle"
+    - title: "YouTube"
+      icon: "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg"
+      url: "https://www.youtube.com/channel/UCHUYX6CA9WOyEmHs7srjlqw"
