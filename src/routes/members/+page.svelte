@@ -25,7 +25,7 @@
                         <p>{member.roll}</p>
                         <div class="flex gap-1 items-stretch">
                             {#each member.links as link}
-                                <a href={link.url} class="border-none flex items-center"><img src={link.icon} alt={link.title} class="w-6" /></a>
+                                <a href={link.url} class="border-none flex items-center" target="_blank"><img src={link.icon} alt={link.title} class="w-6" /></a>
                             {/each}
                         </div>
                     </div>
